@@ -36,6 +36,9 @@ function draw() {
  if (keyDown("left")) {
   ship.velocityX = -5; 
 }
+  if (keyDown("right")) {
+  ship.velocityX = 5; 
+}
   if (keyDown("space")) {
     ship.velocityX = 0; 
   }
